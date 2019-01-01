@@ -144,12 +144,6 @@ MESSAGE_TAGS = {
    
 }
 
-# Email config
-EMAIL_HOST = 'mail.webstop.ie'
-EMAIL_PORT = 993
-EMAIL_HOST_USER = 'steven@webstop.ie'
-EMAIL_HOST_PASSWORD = 'kOnist@371180'
-EMAIL_USE_TLS = True
 
 try:
     from .local_settings import *
